@@ -1,0 +1,2 @@
+Add proifle.js in screens directory
+Add profileStack.js SettingStack.js in routes directory
