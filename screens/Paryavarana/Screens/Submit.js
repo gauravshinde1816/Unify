@@ -28,7 +28,7 @@ const Submit = (props) => {
     const user = await AsyncStorage.getItem("user");
     console.log(user);
     const res = await axios.post(
-      "http://192.168.0.108:5000/paryavarana/forms",
+      "http://localhost:5000/paryavarana/forms",
       {
         name: props.values.programName,
         motto: props.values.programMotto,
